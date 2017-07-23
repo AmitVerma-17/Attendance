@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+       <!-- <item
+            android:id="@+id/nav_view_attendance"
+            android:title="View Attendance" />-->
+        <item
+            android:id="@+id/nav_upload"
+            android:title="Upload to Sheets" />
+        <!--<item
+            android:id="@+id/nav_log_out"
+            android:title="Log Out" />-->
+        <item
+            android:id="@+id/nav_sheet_id"
+            android:title="Attend Manually" />
+       <!-- <item
+            android:id="@+id/nav_switch_user"
+            android:title="Switch User" />-->
+        <item
+            android:id="@+id/nav_open_file"
+            android:title="Read from File" />
+    </group>
+
+</menu>
