@@ -316,10 +316,13 @@ public class MainActivity extends AppCompatActivity
         dateLabel.setVisibility(View.GONE);
     }
 
+        /**
+        * SheetId against the month for which attendacne is to be taken
+        */
     private void spreadSheetIdPref() {
-        editorSheet.putString("6", "19cdP8Aqd-xW0cGtvHAswOIkwjeNXGIjYNnyeOhYuOKg");
-        editorSheet.putString("7", "1iFz0zx5_VLKokhqmQ61GHKWJJaAYffjt5WRTaFzRx04");
-        editorSheet.putString("8", "1hTKtaDG5F7VaZ1NdTSz2TLI5TpculHYOHzGX4DvWZUI");
+        editorSheet.putString("6", "<SheetId>");
+        editorSheet.putString("7", "<SheetId>");
+        editorSheet.putString("8", "<SheetId>");
         editorSheet.commit();
     }
 
